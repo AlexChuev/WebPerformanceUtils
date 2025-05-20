@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Load Time</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 200px;
+        }
+
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .checkbox-indent label {
+            margin-left: 20px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .radio-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Webpage Load Timer</h3>
+    <p>Load time of the current page:</p>
+    <div id="result">Loading...</div>
+    <h3>Measure page actions:</h3>
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="measureActions" value="off" checked>
+            Off
+        </label>
+        <label>
+            <input type="radio" name="measureActions" value="once">
+            Once
+        </label>
+        <label>
+            <input type="radio" name="measureActions" value="always">
+            Always
+        </label>
+    </div>
+    <div class="checkbox-indent">
+        <label>
+            <input type="checkbox" id="keydown" disabled>
+            KeyDown
+        </label>
+        <label>
+            <input type="checkbox" id="keyup" disabled>
+            KeyUp
+        </label>
+        <label>
+            <input type="checkbox" id="mousedown" disabled>
+            MouseDown
+        </label>
+        <label>
+            <input type="checkbox" id="mouseup" disabled>
+            MouseUp
+        </label>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extension Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Webpage Load Timer Settings</h2>
+    <label>
+        Mutation Timeout (ms):
+        <input type="number" id="timeoutInput" value="500">
+    </label>
+
+    <label>
+        CSS Selector for MutationObserver:
+        <input type="text" id="selectorInput" placeholder="Enter CSS selector">
+    </label>
+
+    <label>
+        <input type="checkbox" id="loggingCheckbox"> Enable Extended Logging
+    </label>
+
+    <button id="saveButton">Save</button>
+
+    <script src="options.js"></script>
+</body>
+</html>

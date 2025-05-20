@@ -1,0 +1,14 @@
+Add element selector
+Add an option for console logging
+Format mutation time properly
+
+Add action measurement - MouseUp, MouseDown, KeyUp, KeyDown
+Enable/disable action tracking - quick option
+Enable/disable action tracking - shortcut
+
+Add autoscroll for grid
+
+Add result logging
+Add result viewer grid
+
+Add layout shift threshold
